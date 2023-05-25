@@ -150,6 +150,7 @@ h6 {
 }
 
 .arrow span {
+  background: blue;
   content: "\2193";
 }
 
