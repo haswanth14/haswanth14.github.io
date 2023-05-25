@@ -291,7 +291,6 @@ h6 {
 .animated-arrow i {
   transition: transform 0.3s ease-in-out;
 }
-
 .animated-arrow:hover i {
   transform: translateY(5px);
 }
