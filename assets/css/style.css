@@ -149,9 +149,15 @@ h6 {
   list-style: none;
 }
 
-.arrow span {
-  background: blue;
-  content: "\2193";
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9; /* Fix for IE8 */
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
 }
 
 .nav-menu>ul>li {
